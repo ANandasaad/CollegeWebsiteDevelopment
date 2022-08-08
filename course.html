@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <title>Eduford University - We Make Future.</title>
+</head>
+<body>
+
+ <!--header-->   
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+<!--Courses-->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Data Science.
+        Artificial Intelligence and Machine Learning.
+        Big Data.
+        Business Intelligence.
+        Cloud Computing.
+        Project Management.
+        Software Development.
+        Full-stack development.
+    </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Data Science.
+                Artificial Intelligence and Machine Learning.
+                Big Data.
+                Business Intelligence.
+                Cloud Computing.
+                Project Management.
+                Software Development
+                Full-stack development</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Data Science.
+                Artificial Intelligence and Machine Learning.
+                Big Data.
+                Business Intelligence.
+                Cloud Computing.
+                Project Management.
+                Software Development
+                Full-stack development</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Data Science.
+                Artificial Intelligence and Machine Learning.
+                Big Data.
+                Business Intelligence.
+                Cloud Computing.
+                Project Management.
+                Software Development
+                Full-stack development</p>
+        </div>
+    </div>
+</section>
+
+
+<!--Facilites-->
+<section class="facilites">
+    <h1>Our Facilites</h1>
+    <p>24X7 Power Supply.
+        Wi-Fi Internet Services.
+        Well-Furnished Common Rooms.
+        Gymnasium.
+        Well-equipped reading rooms.
+        Night Canteen & Tuck Shops.
+        Saloon.
+        Gym Services.
+    </p>
+    <div class="row">
+        <div class="facilites-col">
+            <img src="images/library.png" alt="library">
+            <h3>World Class Library</h3>
+            <p>The library is entirely devoted to the scholastic needs of engineering, technology students and faculty. 
+                It carries a wide range of publications in the areas of Computer, IT, Civil, Biotechnology, Bioinformatics,
+                 Mathematics, Physics, Materials Science, Electronics.
+             </p>
+        </div>
+        <div class="facilites-col">
+            <img src="images/basketball.png" alt="library">
+            <h3>Largest Play Ground</h3>
+            <p>Nothing is more worth it than a healthy body. Sports and games are an essential part of an individual's life, 
+                contributing to enhancing the quality of life. 
+                Understanding the importance of sports.
+             </p>
+        </div>
+        <div class="facilites-col">
+            <img src="images/cafeteria.png" alt="library">
+            <h3>Tasty and Healthy Food</h3>
+            <p>So imagine that you have choices of 20 different places to eat food. This increases competition among the vendors and hence, better quality .
+             From Punjabi Food to Chinese food and South Indian food to Western food , all is available at this University for a reasonable cost.
+             </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Maxime inventore ut explicabo, et totam sapiente commodi earum perferendis,
+         labore laboriosam eaque. Veritatis, quas maxime.
+         Odit culpa nulla animi eaque voluptas.</p>
+
+         <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+         </div>
+         <p>Made By Anand Kushwaha <i class="fa-solid fa-signature"></i></p>
+</section>
+
+<!--Toggle Menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
